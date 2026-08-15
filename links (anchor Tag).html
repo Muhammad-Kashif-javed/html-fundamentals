@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2>1. Simple Link</h2> <!--it will open link in same tag-->
+     <a href="https://www.google.com/">Welcome to Google</a>
+      <br> <br>
+    <h2>2. New Tab Link</h2>  <!--new tab open-->
+    <a href="https://www.google.com/" target="_blank">Open google in new tab</a>
+    <br> <br>
+     <h2>3. Link with Tooltip</h2>  <!--it will Hover-->
+    <a href="https://www.google.com/" target="_blank" title="google link">open to visit page</a>
+    <br> <br>
+
+      <h2>4. Image as link</h2>
+    <a href="https://www.google.com/" target="_blank">
+        <img src="The last code.jpeg" height="100" width="100" alt="My image"> google</a>
+    <br> <br>
+    
+    <h2>5. Email Link</h2>
+    <a href="mailto:kashif.physics332@gmail.com" target="_blank">send mail</a>
+    <!--Opens the default email application on the user's device.
+Examples: Outlook, Windows Mail, Thunderbird.
+Requires an email app to be configured.
+
+Advantages
+
+Simple and standard.
+Works with many email clients.
+
+Disadvantages
+
+May not work if no email app is set up.
+Doesn't always open Gmail.-->
+    <br> <br>
+
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kashif.physics332@gmail.com" target="_blank">
+    Send Mail
+</a>
+<!--Opens Gmail in the browser.
+Creates a new email to kashif.physics332@gmail.com.-->
+<h2> bookmark link</h2>
+    <a href="#book" target="_blank">go to book section</a>
+    <br> <br> <br> <br>
+
+ <h2>6. Call link</h2>
+    <a href="tel:+92 3404832901" target="_blank">call now</a>
+    <br> <br>
+    <!--`target="_blank"` is an HTML attribute that tells the browser to **open the link in a new tab or new window**.
+
+### Example
+
+```html
+<a href="https://www.google.com" target="_blank">Open Google</a>
+```
+
+When you click it:
+
+* Current page stays open.
+* Google opens in a **new tab**.
+
+### Without `target="_blank"`
+
+```html
+<a href="https://www.google.com">Open Google</a>
+```
+
+When you click it:
+
+* The current page is replaced by Google.
+* No new tab is opened.
+
+### For `mailto:` and `tel:`
+
+```html
+<a href="mailto:test@gmail.com" target="_blank">Send Mail</a>
+
+<a href="tel:+923404832901" target="_blank">Call Now</a>
+```
+
+`target="_blank"` is usually **ignored** because these links open an email app or phone dialer, not a web page.
+
+### Quick Rule
+
+| Link Type     | `target="_blank"` Useful? |
+| ------------- | ------------------------- |
+| `https://...` | ✅ Yes                     |
+| `mailto:...`  | ❌ No                      |
+| `tel:...`     | ❌ No                      |
+
+For phone and email links, write:
+
+```html
+<a href="mailto:kashif.physics332@gmail.com">Send Mail</a>
+
+<a href="tel:+923404832901">Call Now</a>
+```
+
+No `target="_blank"` needed.
+-->
+<h2>7. Home</h2>
+    <a href="Semantic Elements,list.html" target="_blank">visit home page</a>
+    <!--multiple HTML pages connected using <a> links. target means new tab-->
+    <br> <br>
+
+       
+
+     <h2 id="book">book</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum necessitatibus voluptate eaque aspernatur adipisci
+        quae quo nemo, cum, quidem beatae praesentium laborum nam, odio totam qui dicta nisi expedita dolore.</p>
+        
+
+
+  
+</body>
+</body>
+</html>
